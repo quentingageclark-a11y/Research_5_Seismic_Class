@@ -9,6 +9,10 @@ create_index = false
 exclude = [
     # these are in the repo but not used on the website
     "tools/*",
+
+    # pre-exported to *_amending.html and embedded via iframe; the raw .jl
+    # is linked as a plain download only, not built/run as a notebook page
+    "module4_SEISMICNTBK/*_amending.jl",
 ]
 
 [SliderServer]
@@ -17,9 +21,13 @@ host = "0.0.0.0"
 exclude=[
     # these are in the repo but not used on the website
     "tools/*",
-    
+
     # notebooks not interactive
 
     # don't run homeworks
     "*/hw*.jl",
+
+    # pre-exported to *_amending.html and embedded via iframe; the raw .jl
+    # is linked as a plain download only, not built/run as a notebook page
+    "module4_SEISMICNTBK/*_amending.jl",
 ]

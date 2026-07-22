@@ -15,6 +15,12 @@ layout: "md.jlmd"
     border: none;
     display: block;
 }
+.notebook-download-link {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
 </style>
+
+<a class="notebook-download-link" href="https://github.com/quentingageclark-a11y/Research_5_Seismic_Class/raw/main/src/module4_SEISMICNTBK/1-FirstLook_amending.jl" download>Download this notebook (.jl)</a>
 
 <iframe class="embedded-notebook-frame" src="$(root_url)/module4_SEISMICNTBK/1-FirstLook_amending/" loading="lazy" title="First Look notebook"></iframe>
