@@ -20,6 +20,6 @@ layout: "md.jlmd"
 }
 </style>
 
-<a class="notebook-download-link" href="https://github.com/quentingageclark-a11y/Research_5_Seismic_Class/raw/main/src/module4_SEISMICNTBK/4-Attributes_amending.jl" download>Download this notebook (.jl)</a>
+<a class="notebook-download-link" href="https://github.com/quentingageclark-a11y/Research_5_Seismic_Class/raw/main/src/module4_SEISMICNTBK/_sources/4-Attributes_amending.jl" download>Download this notebook (.jl)</a>
 
 <iframe class="embedded-notebook-frame" src="$(root_url)/module4_SEISMICNTBK/4-Attributes_amending/" loading="lazy" title="Attributes notebook"></iframe>
